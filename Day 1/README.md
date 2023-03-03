@@ -1,1 +1,1 @@
-day 1 cat chall 
+Write a simple version of the program cat(1). cat takes N file names as command-line arguments, concatenates their contents, and writes the result to its standard output.
