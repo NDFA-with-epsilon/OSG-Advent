@@ -1,5 +1,4 @@
-//Day 1
-//cat implementation
+/* Day 1: cat utility implementation */
 
 #include <stdio.h>
 #include <stdlib.h>
