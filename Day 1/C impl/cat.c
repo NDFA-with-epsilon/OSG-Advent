@@ -81,7 +81,11 @@ void cat(int argc, char const** argv)
 int main(int argc, char const *argv[])
 {
     /* code */
-    if(argc < 2) ERR_ARG 
+    if(argc < 2) 
+    {
+        ERR_ARG 
+        return -1;
+    }
 
     cat(argc, argv);
     return 0;
