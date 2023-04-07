@@ -8,8 +8,7 @@
 
 #define ERR_ARG \
 {               \
-    printf("\nSyntax: ./cat file1 file2 ...");            \
-}
+    printf("\nSyntax: ./cat file1 file2 ...");             }
 
 
 int calc_fsize(int fd)
